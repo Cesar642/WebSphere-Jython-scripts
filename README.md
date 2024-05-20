@@ -84,3 +84,6 @@ ToRun: ```/opt/IBM/WebSphereXX/AppServer/bin/wsadmin.sh -lang jython -f deleteEn
 ```
 RESOURCE1(cells/wascell/nodes/servername/servers/servernameandinstancename|namebindings.xml#StringNameSpaceBinding_123456789)
 ```
+### listEntries.py
+
+ToRun: ```/opt/IBM/WebSphereXXX/AppServer/bin/wsadmin.sh -lang jython -f listEntries.py RESOURCE```

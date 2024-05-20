@@ -67,3 +67,12 @@ ToRun: ```/opt/IBM/WebSpherexx/AppServer/bin/wsadmin.sh -lang jython -f createNa
 ```
 NAMESPACE_PARAMETER=:=NAMESPACE/PARAMAETER=:=VALUE
 ```
+### deleteEntry.py
+
+ToRun: ```/opt/IBM/WebSphereXX/AppServer/bin/wsadmin.sh -lang jython -f deleteEntry.py deleteEntryIn.txt RESOURCE```
+
+>deleteEntryIn.txt:
+```
+RESOURCE1
+RESOURCE2
+```

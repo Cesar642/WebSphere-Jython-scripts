@@ -58,3 +58,12 @@ NAMESPACE_URL=:=NAMESPACE/URL=:=NEWURL
 NAMESPACE_DEVICE_URL=:=NAMESPACE/DEVICE_URL=:=NEWURL
 NAMESPACE_TRANS_URL=:=NAMESPACE/TRANS_URL=:=NEWURL
 NAMESPACE_DSP-CONFIG_USER_PROFILE_URL=:=NAMESPACE/USER_PROFILE_URL=:=NEWURL
+```
+### createNameBindings.py
+
+ToRun: ```/opt/IBM/WebSpherexx/AppServer/bin/wsadmin.sh -lang jython -f createNameBindings.py newBindings.txt "/Cell:wascell/Node:servername/Server:INSTANCE1"```
+
+>newBindings.txt:
+```
+NAMESPACE_PARAMETER=:=NAMESPACE/PARAMAETER=:=VALUE
+```

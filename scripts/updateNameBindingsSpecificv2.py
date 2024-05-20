@@ -75,8 +75,6 @@ def updateKeys(toUpdate):
       print "AdminConfig.modify(%s, %s)" % (typeToEdit, params)
       print AdminConfig.modify(typeToEdit, params)
 
-#findKey("HSBC/SECF/GLOBAL/CONFIGMANAGER/CONFIG/externalConfig")
-
 createdic(fp)
 
 #printDic()

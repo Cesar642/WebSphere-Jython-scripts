@@ -76,3 +76,11 @@ ToRun: ```/opt/IBM/WebSphereXX/AppServer/bin/wsadmin.sh -lang jython -f deleteEn
 RESOURCE1
 RESOURCE2
 ```
+### deleteEntrySpecific.py
+
+ToRun: ```/opt/IBM/WebSphereXX/AppServer/bin/wsadmin.sh -lang jython -f deleteEntrySpecific.py deleteEntryIn.txt RESOURCE INSTANCENAME```
+
+>deleteEntryIn.txt:
+```
+RESOURCE1(cells/wascell/nodes/servername/servers/servernameandinstancename|namebindings.xml#StringNameSpaceBinding_123456789)
+```

@@ -87,3 +87,7 @@ RESOURCE1(cells/wascell/nodes/servername/servers/servernameandinstancename|nameb
 ### listEntries.py
 
 ToRun: ```/opt/IBM/WebSphereXXX/AppServer/bin/wsadmin.sh -lang jython -f listEntries.py RESOURCE```
+
+### updateVirtualHost.py
+
+ToRun: ```/opt/IBM/WebSphereXXX/AppServer/bin/wsadmin.sh -lang jython -f updateVirtualHost.py```
